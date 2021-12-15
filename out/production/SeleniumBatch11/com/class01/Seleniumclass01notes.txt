@@ -1,0 +1,91 @@
+
+ What is Software testing?
+ -- identify the quality and correctness of the Software
+
+ How many ways can we test a software?
+ 1. MANUAL
+ 2. AUTOMATION
+
+ When do we go for automation?
+ -- frequesnt regression  testing is required
+ -- repeated test case execution
+ -- efficiency
+
+ What are the tools that we have for automation?
+ Selenium, UFT/QTP, Cucumber, TestNG, KAtlon Studio
+
+ Level of Testing:
+ 1. Unit testing
+ 2. Integration Testing
+ 3. System testing
+ 4. Acceptance testing
+
+ Type of Testing:
+ 1. functional testing
+ 2. non functional testing(performance, security)
+
+ what is Selenium?:
+ -- A set of tools that help us to automate
+ web based application only
+ it is usually used for performance Testing
+
+ Selenium suit:
+ 1. Selenium IDE - it is basicly a plugin, record and play.
+ cons: no programming
+
+ 2. Selenium RC (remote control) :
+ * supports different programming languages
+ * supports different browsers
+ * it is required a rc server
+
+ 3. Selenium Webdriver:
+ a) support different browsers
+ b) it will support different languages
+
+ 4. Selenium Grid:
+ 1) consist of a node and hub
+ 2) run test cases in parellel on different browsers
+
+ Selenium 1:
+ Selenium 2 --> Selenium 2--> Selenium RC and webdriver  (combined)
+ Selenium 3 --> some improvements in Selenium 2
+ Selenium 4 --> some changes and improvments in the communication protocols
+
+ Advantages of Selenium:
+ -- Open Source
+ -- Completible with different language(java, ruby, c#)
+ -- It allows you to have your test cases run on different browsers (firefox, opera, chrome, etc)
+ -- it is not OS dependent( windows, MAc, linux)
+
+Disadvantage of Selenium:
+-- no technical support
+-- we can not test desktop application
+-- no built in reports
+-- can not test captachas, images and videos
+
+Selenium Architector
+
+driver.close()--> it will close the current tab that we are on
+driver.quit() --> it will close whole browser
+
+get() vs navigate()
+-- using navigate we can move forward, backward and refresh the page
+but using get we can not do that
+
+-- all webpages are made of usually HTML, CSS,and js
+we have tags in hTML
+1.tags have different purpose i.e. to define headings, pragrahps, picture, etc
+** we must have a opening and a closing tag
+<html>
+</html>
+example how is html works:
+<batch11>
+<listofstudents>
+<name>sorbon</name>
+<name>hasim<name>
+</listofstudent>
+<instructors>
+<name>moazzam</name>
+<name>asghar</name>
+</instructors>
+</batch11>
