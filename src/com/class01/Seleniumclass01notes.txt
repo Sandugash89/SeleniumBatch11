@@ -82,7 +82,7 @@ example how is html works:
 <batch11>
 <listofstudents>
 <name>sorbon</name>
-<name>hasim<name>
+<name>hasim</name>
 </listofstudent>
 <instructors>
 <name>moazzam</name>

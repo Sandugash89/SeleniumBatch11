@@ -37,7 +37,7 @@ Example:
 idenitfying elements using contain method
 //tagname[contains(@attribute,'attribute value')]
 Example:
-//tagname[contains(@attrbiute,"sometext")]
+//tagname[contains(@attrbiute,"sometext from attribute value")]
 hey can u find me the tag which has the attribute "attribute" and it value contains "sometext"
 
 YOU CAN ALSO USE and OPERator to chain ur xpath
